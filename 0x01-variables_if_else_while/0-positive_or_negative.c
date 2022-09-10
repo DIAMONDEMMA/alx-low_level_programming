@@ -1,20 +1,28 @@
-#!/bin/bash
- gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative
-#include<stdio.h>
+#include <stdio.h>
+#include <time.h>
 
- /**
-  * main - prints the phrase with proper grammar,
-  * but the outcome is a piece of art,
-  * Return: 0 if exited properly, non-zero otherwise
-  */
- int main(void)
+/**
+ * main - print if number is positive at the entry point
+ *
+ * Description; using the main function 
+ * this points "programming is positive, zero or negative
+ * Return: 0
+ */
+int main(void)
+
+srand (time(0));
+n = rand() - RAND_MAX / 2 
+ /* your code enters here */
+if (n > 0)
 {
-	./0-positive_or_negative,
-	./0-positive_or_negative,
-	./0-positive_or_negative,
-	./0-positive_or_negative,
-	./0-positive_or_negative,
-	./0-positive_or_negative,
-	./0-positive_or_negative,
-	return (0);
+ printf("%d is positive\n",n);
 }
+ else if (n==0)
+{
+ printf("% is zero\n", n);
+}
+ else if (n < 0)
+{
+ printf("%d is negative\n", n);
+}
+ return (0);
