@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 #include <unistd.h>
 
@@ -7,6 +7,7 @@
  *
  * Return: Always 0 (success)
  */
+
 void print_alphabet(void)
 {
 	int n;
