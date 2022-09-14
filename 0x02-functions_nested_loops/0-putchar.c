@@ -1,4 +1,7 @@
-#include "main.h"
+#include <stdio.h>
+
+#include <unistd.h>
+
 /**
  * main - Entry
  * prints _putchar
