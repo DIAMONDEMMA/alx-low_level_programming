@@ -6,6 +6,7 @@
  * Return: length of string
  */
 
+void puts_half(char *str)
 int _strlen(char *s)
 {
 int len = 0;
